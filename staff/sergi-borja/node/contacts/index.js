@@ -1,3 +1,4 @@
-const addContact = require('./logic/add-contact')
+const App = require('./components/App')
 
-addContact('name', 'surname', 'phone', 'email', 'age', 'birthdate', 'country')
+App()
+
